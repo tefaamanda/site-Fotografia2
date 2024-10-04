@@ -1,0 +1,78 @@
+*{
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+}
+
+:root{
+     --cabecalho: #080404;
+     --logo: #f5008d;
+     --background: #f5f5f5;
+     --background2: #f6d6e9;
+     --background3: #ffffff;
+}
+
+.logo {
+    width: 110px;
+    margin-left: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--cabecalho);
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+    margin-right: 37px;
+    font-family: "Nexa W01 Heavy";
+}
+
+.home {
+    color: var(--logo);
+}
+
+.galeria {
+    color: var(--logo);
+}
+
+.orcamento {
+    color: var(--logo);
+}
+
+.contato {
+    color: var(--logo);
+}
+
+.home:hover {
+    color: var(--background2);
+}
+
+.galeria:hover {
+    color: var(--background2);
+}
+
+.orcamento:hover {
+    color: var(--background2);
+}
+
+.contato:hover {
+    color: var(--background2);
+}
+
+.cabecalho {
+    background: url('../img/itgirl2.jpg') no-repeat;
+    background-size: 100%;
+}
+
+.frase-inicial {
+    padding-top: 760px;
+    padding-bottom: 75px;
+    padding-left: 60px;
+    font-family: "Avenir-Medium";
+    color: var(--background3);
+    font-size: 30px;
+}
